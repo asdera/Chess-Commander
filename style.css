@@ -1,0 +1,58 @@
+* {
+	padding: 5px;
+}
+
+
+body {
+    min-width: 500px;
+    /* background-image: url("img/background.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% auto;
+	font-family: Calibri;
+	color: snow;
+	/*text-align: center;*/
+}
+
+h1 {
+	margin-top: -5px;
+}
+
+.board {
+	background-image: url("img/jadechessboard.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    position: relative;
+	margin: auto;
+	width: 300px;
+	height: 300px;
+}
+
+.instructions {
+	margin: 10px;
+}
+
+.output {
+    position: absolute;
+	margin: auto;
+	width: 90%;
+	height: 20px;
+	left: 10px;
+	border-radius: 5px;
+
+}
+
+.output p {
+	margin: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+button {
+	margin-top: 30px;
+}
+
+

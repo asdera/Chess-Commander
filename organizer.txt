@@ -1,0 +1,39 @@
+location.href = "/#pool/5+0";
+
+chrome.tabs.getSelected(null, function(tab){
+    chrome.tabs.executeScript(tab.id, {code: "alert('test');"}, function(response) {
+        
+    });
+});
+
+TO-DO
+
+make a chessboard background
+
+traslate speech to SAN / UCI
+
+1	one, uno, Juan
+2	two, to, too
+3	three, tree, Siri
+4	four, for, (end with or)
+5	five, fight, hi, hive
+6	six, sex, set, sit
+7	
+8	
+
+A	adams, alpha
+B	boston, bravo
+C	chicago, charlie
+D	denver, delta
+E	easy, echo
+F	frank, foxtrot
+G	george, golf
+H	henry, hotel
+
+K king
+Q queen
+B bishop
+N night
+R rook, brooke, buck, book, rock
+P pawn
+
